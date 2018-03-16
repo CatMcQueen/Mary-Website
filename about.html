@@ -62,8 +62,8 @@ body, html {
 
 
 
-<!-- Adding about section-->
-<div class="w3-white w3-margin w3-display-container">
+<!-- Adding about section for large and medium screens-->
+<div class="w3-white w3-margin w3-display-container w3-hide-small">
     <img src="pictures/mary_template.jpg" alt="About" style="width:100%" >
         <div class="w3-display-middle w3-center">
             <div class="w3-border-red w3-border" style="background-color:#D0826E;">
@@ -81,11 +81,37 @@ body, html {
     </div>
 </div>
 
+<!-- Adding about section for small screens-->
+<div class="w3-white w3-display-container w3-hide-large w3-hide-medium">
+    <img src="pictures/mary_template.jpg" alt="About" style="width:100%" >
+        <div class="w3-display-middle w3-center">
+            <div class="w3-border-red w3-border" style="background-color:#D0826E;">
+                <div class="w3-container w3-white w3-padding-large">
+                    <div class="w3-xsmall w3-text-black">
+                        <h5>As a student at Brigham Young University, I am determined to never stop learning and growing. My dad always lectured his kids growing up that we must "contribute more than we consume," and that has become my personal mission in life: as a friend, student, and co-worker. </h5>
+                        
+                        <h5>My passion for business and marketing is fed through the fast-paced Marketing Society and Women in Business clubs that I am a part of. I am on track to graduate with my bachelor's in marketing in the Spring of 2019. As VP of Analytics in the Marketing Association, I have been able to develop statistical skills that help me make data-driven decisions and as the Leader of Technology in the Women in Business club, I have seen the social and impacts that equality in the workplace can make. </h5>
+                        
+                        <h5>Outside of school, I enjoy working on production and design skills. I love art and like to work on both my creative skills and technical skills using Adobe Creative Cloud. From coding to design, I try to find passion in what I do so that I will contribute more than I consume.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
 
-<!-- Add picture strip -->
-<div class="w3-display-large" id="main">
+
+<!-- Add picture strip for large and medium-->
+<div class="w3-display-large w3-hide-small" id="main">
     <header class="w3-container w3-padding-8 w3-center w3-white" id="home">
         <img src="pictures/strip_pics.png" alt="mary" class="w3_image" width="1400" height="230">
+            </header>
+</div>
+
+<!-- Add picture strip for small-->
+<div class="w3-display-large w3-hide-large w3-hide-medium" id="main">
+    <header class="w3-container w3-padding-8 w3-center w3-white" id="home">
+        <img src="pictures/strip_pics.png" alt="mary" class="w3_image" width="380" height="90">
             </header>
 </div>
 
